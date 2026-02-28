@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import ProductActions from '@/components/ProductActions';
 
 export function generateStaticParams() {
+  console.log("THIS IS NEW BUILD - generateStaticParams running");
   return products.map((product) => ({
     id: product.id,
   }));
