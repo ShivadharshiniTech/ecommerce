@@ -5,7 +5,7 @@ const collections = [
     id: 'candles',
     name: 'REXZIO Candles',
     description: 'Handcrafted luxury candles with premium soy wax and signature fragrances',
-    image: '/images/WhatsApp Image 2026-02-28 at 11.13.32 PM.jpeg',
+    image: '/images/ChatGPT Image Feb 13, 2026, 12_01_19 PM.png',
     href: '/collections/candles',
     categories: ['Home Fragrance', 'Luxury Gifts', 'Artisanal']
   },
@@ -13,7 +13,7 @@ const collections = [
     id: 'fragrances',
     name: 'Signature Fragrances',
     description: 'Refined perfumes and room sprays crafted for discerning tastes',
-    image: '/images/ChatGPT Image Feb 13, 2026, 12_08_10 PM.png',
+    image: 'https://images.unsplash.com/photo-1615634260167-c8cdede054de?w=800&q=80',
     href: '/collections/fragrances',
     categories: ['Perfumes', 'Room Sprays', 'Essential Oils']
   },
@@ -21,7 +21,7 @@ const collections = [
     id: 'basmati-rice',
     name: 'Premium Basmati Rice',
     description: 'Export-quality aged basmati rice from the finest farms',
-    image: '/images/ChatGPT Image Feb 13, 2026, 12_08_16 PM.png',
+    image: 'https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&q=80',
     href: '/collections/basmati-rice',
     categories: ['Aged Basmati', 'Organic Options', 'Export Grade']
   },
@@ -29,7 +29,7 @@ const collections = [
     id: 'oils',
     name: 'Indian Oils Collection',
     description: 'Cold-pressed mustard, sesame, and coconut oils for export markets',
-    image: '/images/ChatGPT Image Feb 13, 2026, 12_11_28 PM.png',
+    image: 'https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&q=80',
     href: '/collections/oils',
     categories: ['Cold-Pressed', 'Traditional', 'Premium Grade']
   }
