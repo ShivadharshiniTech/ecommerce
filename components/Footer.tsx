@@ -9,36 +9,36 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-primary-500 to-primary-700 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">L</span>
+                <span className="text-white font-bold text-xl">R</span>
               </div>
               <span className="text-2xl font-display font-bold text-white">
-                LuxeGlow
+                REXZIO
               </span>
             </div>
             <p className="text-sm text-gray-400">
-              Premium handcrafted candles made with love and natural ingredients.
+              Luxury lifestyle brand. Crafted in India. Designed for the World.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-white font-semibold mb-4">Collections</h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="hover:text-primary-400 transition-colors">Home</Link></li>
-              <li><Link href="/products" className="hover:text-primary-400 transition-colors">Products</Link></li>
-              <li><Link href="/about" className="hover:text-primary-400 transition-colors">About Us</Link></li>
-              <li><Link href="/contact" className="hover:text-primary-400 transition-colors">Contact</Link></li>
+              <li><Link href="/collections/candles" className="hover:text-primary-400 transition-colors">Luxury Candles</Link></li>
+              <li><Link href="/collections/fragrances" className="hover:text-primary-400 transition-colors">Signature Fragrances</Link></li>
+              <li><Link href="/collections/foods" className="hover:text-primary-400 transition-colors">Premium Foods</Link></li>
+              <li><Link href="/exports" className="hover:text-primary-400 transition-colors">Global Exports</Link></li>
             </ul>
           </div>
 
           {/* Customer Service */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Customer Service</h3>
+            <h3 className="text-white font-semibold mb-4">Business</h3>
             <ul className="space-y-2">
-              <li><Link href="/shipping" className="hover:text-primary-400 transition-colors">Shipping Info</Link></li>
-              <li><Link href="/returns" className="hover:text-primary-400 transition-colors">Returns</Link></li>
-              <li><Link href="/faq" className="hover:text-primary-400 transition-colors">FAQ</Link></li>
-              <li><Link href="/privacy" className="hover:text-primary-400 transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/bulk-supply" className="hover:text-primary-400 transition-colors">Bulk & Private Label</Link></li>
+              <li><Link href="/corporate" className="hover:text-primary-400 transition-colors">Corporate Gifting</Link></li>
+              <li><Link href="/partner" className="hover:text-primary-400 transition-colors">Partner With Us</Link></li>
+              <li><Link href="/about" className="hover:text-primary-400 transition-colors">Our Philosophy</Link></li>
             </ul>
           </div>
 
@@ -46,8 +46,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-4">Get In Touch</h3>
             <ul className="space-y-2 text-sm">
-              <li>Email: hello@luxeglowcandles.com</li>
-              <li>Phone: +91 98765 43210</li>
+              <li>Email: support@rexzio.in</li>
+              <li>Exports: exports@rexzio.in</li>
               <li className="pt-4">
                 <div className="flex space-x-4">
                   <a href="#" className="hover:text-primary-400 transition-colors">
@@ -68,7 +68,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p>&copy; {new Date().getFullYear()} LuxeGlow Candles. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} REXZIO. All rights reserved. Crafted in India.</p>
         </div>
       </div>
     </footer>

@@ -17,9 +17,9 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'LuxeGlow Candles - Premium Handcrafted Candles',
-  description: 'Discover our collection of premium, handcrafted scented candles. Made with natural soy wax and essential oils for the perfect ambiance.',
-  keywords: 'candles, handcrafted candles, scented candles, soy candles, aromatherapy, home fragrance',
+  title: 'REXZIO - Luxury. Crafted. Global.',
+  description: 'A premium lifestyle and global experiences brand, creating refined products across fragrance, home, personal care, and gourmet foods. Crafted in India. Designed for the World.',
+  keywords: 'luxury brand, premium lifestyle, handcrafted candles, signature fragrances, basmati rice export, Indian oils, luxury gifting, corporate events, global exports',
 };
 
 export default function RootLayout({
