@@ -1,11 +1,17 @@
 'use client';
 
 import { use } from 'react';
-import { getProductById } from '@/data/products';
+import { getProductById, products } from '@/data/products';
 import { useCartStore } from '@/store/cartStore';
 import { useState } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return products.map((product) => ({
+    id: product.id,
+  }));
+}
 
 export default function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = use(params);
